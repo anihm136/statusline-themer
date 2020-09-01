@@ -8,8 +8,8 @@ endfunction
 
 function moonfly_statusline_themes#SetMfStatuslineTheme(theme_name) abort
 	let l:theme_func = s:GetMfStatuslineTheme(a:theme_name)
-	exe "call " . l:theme_func
 	try
+		exe "call " . substitute(l:theme_func, "-", "_", "")
 		let l:hl_groups = ['User1', 'User2', 'User3', 'User4', 'User5', 'User6', 'User7', 'User8']
 		for hl_group in l:hl_groups
 			call s:SetHighlightGroup(hl_group, g:clrs[hl_group])
