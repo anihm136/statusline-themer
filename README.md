@@ -8,5 +8,5 @@ A set of themes for [vim-moonfly-statusline](https://github.com/bluz71/vim-moonf
 Quite simply, the plugin has a set of functions to redefine the highlight groups to various colors, and chooses the appropriate one based on the theme. If one is not found, it links the highlight groups as advised in the plugin's readme. An autocommand is defined to automatically change the colors when the colorscheme is changed  
 
 ## Contributing
-I'm a newcomer to vim plugin development, so if you find something that is horribly wrong (or even slightly wrong), feel free to open an issue/send in a PR. For new contributors, see see the colorschemes defined in [](autoload/moonfly_statusline_themes/themes) to get started. You should not have to change anything else to add a new theme  
+I'm a newcomer to vim plugin development, so if you find something that is horribly wrong (or even slightly wrong), feel free to open an issue/send in a PR. For new contributors, see the colorschemes defined in [autoload/moonfly_statusline_themes/themes](./autoload/moonfly_statusline_themes/themes/) to get started. You should not have to change anything else to add a new theme  
 
