@@ -1,8 +1,13 @@
-highlight User1 ctermbg=4   guibg=#b3deef ctermfg=234 guifg=#335261
-highlight User2 ctermbg=251 guibg=#c9d05c ctermfg=234 guifg=#464632
-highlight User3 ctermbg=9   guibg=#d3b987 ctermfg=234 guifg=#715b2f
-highlight User4 ctermbg=13  guibg=#f43753 ctermfg=234 guifg=#79313c
-highlight User5 ctermbg=236 guibg=#272929 ctermfg=4   guifg=#b3deef gui=none
-highlight User6 ctermbg=236 guibg=#272929 ctermfg=251 guifg=#f43753 gui=none
-highlight User7 ctermbg=236 guibg=#272929 ctermfg=4   guifg=#b3deef gui=none
-highlight User8 ctermbg=236 guibg=#272929 ctermfg=9   guifg=#f43753 gui=none
+function moonfly_statusline_themes#themes#tender#colors() abort
+	"									[ctermbg, ctermfg], [guibg, guifg]
+	let g:clrs = {
+				\ "User1" : [[237, 254], ["#b3deef", "#335261"]],
+				\ "User2" : [[237, 254], ["#c9d05c", "#464632"]],
+				\ "User3" : [[237, 254], ["#d3b987", "#715b2f"]],
+				\ "User4" : [[237, 254], ["#f43753", "#79313c"]],
+				\ "User5" : [[235, 254], ["#272929", "#b3deef"]],
+				\ "User6" : [[235, 254], ["#272929", "#f43753"]],
+				\ "User7" : [[235, 254], ["#272929", "#b3deef"]],
+				\ "User8" : [[235, 254], ["#272929", "#f43753"]],
+				\	}
+endfunction
