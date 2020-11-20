@@ -24,5 +24,25 @@ function moonfly_statusline_themes#SetMfStatuslineTheme(theme_name) abort
 		highlight! link User6 StatusLine
 		highlight! link User7 StatusLine
 	endtry
+	highlight link ElCommand User1
+	highlight link ElCommandCV Statusline
+	highlight link ElCommandEx Statusline
+	highlight link ElConfirm Statusline
+	highlight link ElInsertCompletion User2
+	highlight link ElInsert User2
+	highlight link ElMore Statusline
+	highlight link ElNormal User1
+	highlight link ElNormalOperatorPending Statusline
+	highlight link ElPrompt Statusline
+	highlight link ElReplace User4
+	highlight link ElSBlock User3
+	highlight link ElSelect User3
+	highlight link ElShell Statusline
+	highlight link ElSLine User3
+	highlight link ElTerm Statusline
+	highlight link ElVirtualReplace User4
+	highlight link ElVisualBlock User3
+	highlight link ElVisualLine User3
+	highlight link ElVisual User3
 endfunction
 
