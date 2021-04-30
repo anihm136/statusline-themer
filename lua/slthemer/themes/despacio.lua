@@ -8,6 +8,7 @@ return {
 		StatusText     = "#272929",
 		LineBackground = "#303030",
 		Background     = "#121212",
+		Background2     = "#212121",
 		Git            = "#5f875f",
 		FileStats      = "#d75f5f",
 		Decorations    = "#87afcf",
